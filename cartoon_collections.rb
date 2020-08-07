@@ -1,6 +1,7 @@
 require "pry"
 
 def roll_call_dwarves(dwarves)
+  
   dwarves.collect do |name|
     
 end
