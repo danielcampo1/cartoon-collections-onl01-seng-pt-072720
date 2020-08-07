@@ -22,7 +22,6 @@ end
 
 def find_the_cheese(cheddar_types)
     cheese_types.include?(cheese) do |queso|
-      puts 
 end
 
 cheese_types = ["cheddar", "gouda", "camembert"]
