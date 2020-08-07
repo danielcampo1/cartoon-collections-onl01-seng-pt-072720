@@ -21,9 +21,7 @@ def long_planeteer_calls(calls)
 end
 
 def find_the_cheese(cheddar_cheese)
-  c = 0
- puts "#{cheddar_cheese.length}"
-  
+ puts 
 end
 
 cheese_types = ["cheddar", "gouda", "camembert"]
