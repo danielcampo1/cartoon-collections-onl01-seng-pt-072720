@@ -1,9 +1,7 @@
 require "pry"
 
 def roll_call_dwarves(dwarves)
-  dwareves.collect do |n|
-    puts #{n}
-end
+  puts dwarves
 
 def summon_captain_planet# code an argument here
   # Your code here
