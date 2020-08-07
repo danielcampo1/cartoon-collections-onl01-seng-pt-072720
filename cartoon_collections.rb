@@ -21,7 +21,7 @@ def long_planeteer_calls(calls)
 end
 
 def find_the_cheese(cheddar_cheese)
-  c = 1
+  c = 0
  puts "#{cheddar.length}"
   
 end
