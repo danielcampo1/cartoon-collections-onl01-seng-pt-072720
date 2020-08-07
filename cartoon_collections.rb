@@ -5,7 +5,7 @@ def roll_call_dwarves(dwarves)
   arr = []
   dwarves.collect do |name|
      arr << name
-      puts #{n}. arr
+      puts "#{n}. arr"
     n += 1
   
   end
