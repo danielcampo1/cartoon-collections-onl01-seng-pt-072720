@@ -4,10 +4,10 @@ def roll_call_dwarves(dwarves)
   n = 0
   arr = []
   dwarves.collect do |name|
-    arr << dwarves.length
+    arr << dwarves.length, name
     n += 1
   end
-  puts 
+  puts arr
 end
 
 def summon_captain_planet# code an argument here
