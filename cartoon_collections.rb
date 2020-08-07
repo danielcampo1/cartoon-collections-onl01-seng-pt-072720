@@ -1,7 +1,7 @@
 require "pry"
 
 def roll_call_dwarves(dwarves)
-  n = 0
+  n = 1
   arr = []
   dwarves.collect do |name|
      puts "#{n}. #{name}"
