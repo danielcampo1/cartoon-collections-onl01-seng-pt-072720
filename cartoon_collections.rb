@@ -20,12 +20,12 @@ def long_planeteer_calls(calls)
   calls.any? {|call| call.length > 4}
 end
 
-def find_the_cheese(cheddar_cheese)
+def find_the_cheese(items_arr)
  # 1. list cheeese 
  cheese_types = ["cheddar", "gouda", "camembert"]
  # 2.find the any cheese's from cheddar_cheese # 3. return cheese
- cheddar_cheese.find do |che|
-   cheese_types.include?(che)
+ iteams_arr.find do |item|
+   cheese_types.include?(item)
 end
 end
 # # sharks = ["Hammerhead", "Great White", "Tiger", "Whale"]
