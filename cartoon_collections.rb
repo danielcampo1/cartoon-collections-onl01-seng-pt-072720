@@ -22,8 +22,9 @@ end
 
 def find_the_cheese(cheddar_cheese)
  # 1. list cheeese 
- 
+ cheese_types = ["cheddar", "gouda", "camembert"]
  # 2.find the any cheese's from cheddar_cheese
+ cheddar_cheese.find
  # 3. return cheese
  
  puts 
