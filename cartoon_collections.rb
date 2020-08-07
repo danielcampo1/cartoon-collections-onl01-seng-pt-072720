@@ -7,6 +7,7 @@ def roll_call_dwarves(dwarves)
     arr << name
     n += 1
   end
+  arr
 end
 
 def summon_captain_planet# code an argument here
