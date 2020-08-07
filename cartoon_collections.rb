@@ -24,10 +24,12 @@ def find_the_cheese(cheddar_cheese)
  # 1. list cheeese 
  cheese_types = ["cheddar", "gouda", "camembert"]
  # 2.find the any cheese's from cheddar_cheese
- cheddar_cheese.find
+ cheddar_cheese.find do |che|
  # 3. return cheese
  
  puts 
 end
-
-cheese_types = ["cheddar", "gouda", "camembert"]
+# # sharks = ["Hammerhead", "Great White", "Tiger", "Whale"]
+# result = sharks.find {|item| item.include?("a")}
+# print result
+# cheese_types = ["cheddar", "gouda", "camembert"]
