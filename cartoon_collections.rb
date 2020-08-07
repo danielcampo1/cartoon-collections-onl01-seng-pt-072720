@@ -21,6 +21,11 @@ def long_planeteer_calls(calls)
 end
 
 def find_the_cheese(cheddar_cheese)
+ # 1. list cheeese 
+ 
+ # 2.find the any cheese's from cheddar_cheese
+ # 3. return cheese
+ 
  puts 
 end
 
