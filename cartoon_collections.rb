@@ -22,7 +22,7 @@ end
 
 def find_the_cheese(cheddar_cheese)
   c = 1
- puts "#{cheddar.length}""
+ puts "#{cheddar.length}"
   
 end
 
