@@ -1,7 +1,7 @@
 require "pry"
 
 def roll_call_dwarves(dwarves)
-  name = 0
+  n = 0
   dwarves.collect do |name|
     n << name
     n += 1
