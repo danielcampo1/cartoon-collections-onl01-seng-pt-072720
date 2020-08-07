@@ -1,9 +1,10 @@
 require "pry"
 
 def roll_call_dwarves(dwarves)
-  
+  n = 0
   dwarves.collect do |name|
-    
+    n << 
+    n += 1
 end
 
 def summon_captain_planet# code an argument here
