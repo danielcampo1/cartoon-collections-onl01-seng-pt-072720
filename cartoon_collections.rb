@@ -26,7 +26,7 @@ def find_the_cheese(cheddar_cheese)
  # 2.find the any cheese's from cheddar_cheese # 3. return cheese
  cheddar_cheese.find do |che|
    cheese_types.include?(che)
-
+end
 end
 # # sharks = ["Hammerhead", "Great White", "Tiger", "Whale"]
 # result = sharks.find {|item| item.include?("a")}
