@@ -6,7 +6,6 @@ def roll_call_dwarves(dwarves)
   dwarves.collect do |name|
     arr << name
     n += 1
-    binding.pry
   end
   puts 
 end
